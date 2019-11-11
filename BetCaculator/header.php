@@ -50,7 +50,7 @@ $current_file = $file_path[count($file_path)-1];
                 ?>
                     
                          $(".fre_bet").css("display", "none");
-                         $(".fre_calc").css("display", "block");
+                         $(".fre_calc").css("display", "block");                   
                      <?php
                      }
                 ?>
@@ -88,8 +88,22 @@ $current_file = $file_path[count($file_path)-1];
         style=""
       />
       <div id="navbar-right">
-        <a class="btn button-dark fre_calc" style="margin-right: 5px;"  href="index.php"> <img src="assets/Bet_Calc_Icon.png" style="width:  20px; float: left; margin: -2px 0px 0 0px;" />BET CALCULATOR</a>
-        <a class="btn button-light fre_bet"  href="bet_offers.php"> <img src="assets/Free_Bets_Icon.png" style="width:  15px; float: left; margin: -2px 0px 0 0px;" />FREE BET OFFERS</a>
+      <style>
+      .deactive_bet_of{
+        background-color: #9fedd7 !important;
+      }
+      .active_bet_of{
+        background-color: #fbe180 !important;
+      }
+      </style>
+      <?php
+      if($current_file=="bet_offers.php"){
+        $active_bet_offer = "active_bet_of";
+        $deactive_bet_offer = "deactive_bet_of";
+      }
+      ?>
+        <a class="<?php echo $deactive_bet_offer; ?> btn button-dark fre_calc" style="margin-right: 5px;"  href="index.php"> <img src="assets/Bet_Calc_Icon.png" style="width:  20px; float: left; margin: -2px 0px 0 0px;" />BET CALCULATOR</a>
+        <a class="<?php echo $active_bet_offer; ?> btn button-light fre_bet"  href="bet_offers.php"> <img src="assets/Free_Bets_Icon.png" style="width:  15px; float: left; margin: -2px 0px 0 0px;" />FREE BET OFFERS</a>
         
       </div>
     </nav>
@@ -97,5 +111,4 @@ $current_file = $file_path[count($file_path)-1];
     <div class="clear_bar"></div>
     
     <div class="container container_mob" >
-       
     

@@ -35,7 +35,7 @@
             maxlength="4"
             class="input_field"
           />
-          <hr width="50%" style="border-color: #FFF9C7; margin-top: 6px; margin-bottom:30px; " />
+          <hr class="unit_border"  />
             
           <!-- <div class="rectangle">
             <input
@@ -248,7 +248,7 @@
         <div class="col-lg-1"></div>
       </div>
 
-      <div class="row" style="padding: 20px 0px;">
+      <div class="row row_hide" style="padding: 20px 0px;">
         <div class="col-lg-12">
           <p class="text_white text-center" style="margin-top:2%;">
             SELECTIONS

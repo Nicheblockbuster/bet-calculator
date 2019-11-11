@@ -15,12 +15,12 @@ body {
         line-height: 27px;	
         text-align: center;
 }
-.carousel .active {	
+.carousel > .active {	
     height: 73px;	
     width: 123px;	
     color: #FBE180;	
     font-family: "Titillium Web";	
-    font-size: 34px;	
+    font-size: 48px;	
     font-weight: 200;	
     letter-spacing: 0.68px;	
     line-height: 50px;	
@@ -69,19 +69,19 @@ body {
 
         <div class="carousel">
           <a class="carousel-item " href="#one!" style="z-index: -1; opacity: 0.6; visibility: visible; transform: translateX(262px) translateY(100px) translateX(200px) translateZ(-200px);">
-            SINGLE
+            Single
             <span class="carasoul_detail">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </span>
           </a>
           <a class="carousel-item active" href="#two!" style="transform: translateX(262px) translateY(100px) translateX(400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
-            DOUBLE
+            Double
             <span class="carasoul_detail">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </span>
           </a>
           <a class="carousel-item " href="#three!" style="transform: translateX(262px) translateY(100px) translateX(-400px) translateZ(-400px); z-index: -2; opacity: 0.2; visibility: visible;">
-            TREBLE
+            Treble
             <span class="carasoul_detail">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
             </span>

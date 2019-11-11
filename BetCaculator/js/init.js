@@ -180,7 +180,7 @@
     $('.carousel').carousel({
          indicators: true,
     });
-    autoplay();
+    //autoplay();
     function autoplay() {
         $('.carousel').carousel('next');
         setTimeout(autoplay, 3500);

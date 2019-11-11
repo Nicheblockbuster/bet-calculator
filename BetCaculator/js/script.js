@@ -88,6 +88,11 @@ jQuery(document).ready(function() {
        jQuery(this).addClass("button_active");
     });
     
+    jQuery('.rect_win').click(function(){
+       jQuery('.rect_win').removeClass("button_active");
+       jQuery(this).addClass("button_active");
+    });
+    
   jQuery(".add_more").click(function() {
     var clas_count = jQuery(".selection_box").length;
     var c = clas_count;
