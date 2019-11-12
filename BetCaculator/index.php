@@ -14,7 +14,7 @@
         <div class="col-lg-12" style="text-align: center;">
         <p class="text_white text-center" style="margin: 0px;">SELECT BET TYPE</p>
         </div>
-    <iframe src="slider.php" onload="this.style.height=this.contentDocument.body.scrollHeight +'px';" class="slider_iframe" scrolling="no"></iframe>
+    <iframe src="slider.php"  class="slider_iframe" scrolling="no"></iframe>
  </div>
  
       <div class="row">

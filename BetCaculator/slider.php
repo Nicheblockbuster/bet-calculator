@@ -23,7 +23,7 @@ body {
     font-size: 48px;	
     font-weight: 200;	
     letter-spacing: 0.68px;	
-    line-height: 50px;	
+    line-height: 40px;	
     text-align: center;
 }
 .carasoul_detail{
@@ -33,13 +33,15 @@ body {
     line-height: 12px;	
     text-align: center;
     display: none;
+    position: absolute;
+    top: 48px;
 }
 .carousel .active .carasoul_detail{
     display: block;
-    margin-top: 53px;
+    margin-top: 56px;
 }
 .carousel .indicators {
-    top: 60px;
+    top: 85px;
 }
 .indicators_f{
     width: 100%;
